@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/opendialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open dialog"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:text="view"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/showFile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/setPW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Set password" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/buttomclick555"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crypt process" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/buttomOpenFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Open File"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/buttomDelTmpFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="!!!!!!! DELETE Tmp File ??????"/>
+
+    </LinearLayout>
+
+</LinearLayout>
